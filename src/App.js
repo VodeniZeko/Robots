@@ -1,23 +1,23 @@
 import React, { Component } from 'react';
 import {Switch,Route} from 'react-router-dom'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'tachyons';
 import './App.css';
 import Navbar from './Components/Navbar';
 import RobotsList from './Components/RobotsList';
 import Default from './Components/Default';
+import {robots} from './robots';
 
 class App extends Component {
 render() {
     return (
-<React.Fragment>
+  <div>
   <Navbar />
-    <Switch>
-    <Route exact path="/" component={RobotsList}/>
-    <Route component={Default}/>
-    </Switch>
-</React.Fragment>
+ <RobotsList robots={robots}/>
+ </div>
+  
           )
-        } 
+     } 
 }
 
 export default App;
