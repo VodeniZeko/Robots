@@ -1,39 +1,24 @@
 import React, { Component } from 'react';
-import styled from 'styled-components';
 import logo from '../logo.svg';
 
 
-export default class Navbar extends Component {
+export default class Navbar2 extends Component {
 	render() {
 		return (
-			
-<nav className=" navbar-expand-lg bg-secondary text-white shadow-lg">
-	<div className="container py-2">
-		<div className='row'>
-				{/*this is logo in the navbar */}
-			<div className='col-sm-3'>
-				
-				<img src={logo} alt='logo' className='navbar-brand image-tumbnail rounded-sm' />
+			<div className=" bg-silver shadow-5 br2 ph7 w-100 ">
+				<nav className="f6 fw6 ttu tracked">
+				<div className='db'>
+					<img alt='logo'src={logo} />
+					</div>
+					<a className='dib'>
+					<h1 className='#FFFF00'>helo</h1>
+					</a>
+					<a className='dib'>
+					<h1 className='#FFFF00'>helo</h1>
+					</a>
+				</nav>
 				
 			</div>
-				{/*this is logo in the navbar */}
-
-				{/*this is text in the navbar */}
-			  <div className='col-sm-9 pt-4 text-center text-monospace font-weight-bold'>
-				<span className="align-baseline m-3">Say</span>
-				<span className="align-top m-3">Hello</span>
-				<span className="align-middle m-3">To</span>
-				<span className="align-bottom m-3">The</span>
-				<span className="align-text-top m-3">Friendly</span>
-				<span className="align-text-bottom m-3">Robots</span>
-				<span className="align-baseline ">!</span>
-			  </div>
-			  {/*this is text in the navbar */}
-		  </div>
-	</div> 
-</nav>
-
 		);
 	}
 }
-
