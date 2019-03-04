@@ -6,7 +6,6 @@ import Navbar from './Components/Navbar';
 import RobotsList from './Components/RobotsList';
 import Default from './Components/Default';
 import {robots} from './robots';
-import RobotsCard from './Components/RobotsCard';
 
 class App extends Component {
 render() {
