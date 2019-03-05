@@ -7,8 +7,8 @@ const RobotsCard = (props) => {
 	const {name,id,email} = props
 	return (
 
-		<Card className=' bg-silver dib br4 pa2 ma3 grow tc'>
-	<img src={`https://robohash.org/test${id}?50x50`} alt="robots" />
+<Card className=' bg-silver dib br4 pa2 ma3 grow tc'>      
+      <img src={`https://robohash.org/test${id}?50x50`} alt="robots" />
 		<div>
        <h5 >{name}</h5>
 		 <p>{email}</p>
@@ -24,5 +24,7 @@ export default RobotsCard;
 
 const Card = styled.div `
  	cursor: grab;
-
+.btn {
+	border-radius:.5em;
+}
 `;

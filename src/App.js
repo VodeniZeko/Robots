@@ -10,17 +10,31 @@ import Searchbar from './Components/Searchbar';
 
 
 
-class App extends Component {
-render() {
-    return (
-  <div>
-  <Navbar />
-  <Searchbar />
- <RobotsList robots={robots}/>
- </div>
-  
-          )
-     } 
+export default class App extends Component {
+constructor() {
+	super() 
+		this.state = {
+			robots: robots,
+			searchfield: ''
+		}
+	}
+
+    changeIt = (event) => {
+     this.setState({searchfield:event.target.value})
+    }
+
+	render() {
+	const filterRobots = this.state.robots.filter(robots => {
+		return robots.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
+	})
+		return (
+		<div>
+		  <Navbar />
+		  <Searchbar searching={this.changeIt}/>
+		  <RobotsList robots={filterRobots}/>
+		 </div>
+		);
+	}
 }
 
-export default App;
+

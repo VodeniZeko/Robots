@@ -1,17 +1,21 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import icn from "../icn.svg"
 
 
 
-const Searchbar = () => {
+const Searchbar = ({searchfield, searching}) => {
     
         return (
            
             <Srch>
                 <div className='dv  p-4'>
                     <div className='h3'>
-                    <input  className="inpt" type="search" placeholder="  Search Robots..."  /> 
+                    <input  
+                    className="inpt" 
+                    type="search" 
+                    placeholder="  Search Robots..." 
+                    onChange={searching} 
+                    /> 
                     </div>    
                 </div>
             </Srch>
