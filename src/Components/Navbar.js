@@ -20,9 +20,18 @@ export default class Navbar extends Component {
     <div className="fl w-30 w-third-ns pa2">
 	      <div className=" bg-silver pv4 tc system monospace f3 measure-wide">
 	      <Typing strings={[
-    	'Hi my name is <strong>Edvin.</strong>',
-      'Thank you for visiting my Robo-App',
-      ''
+	  'Beep',
+	  'Boop',
+      '<i>We</i>',
+      'Boop',
+  	  'Beep',
+      '<i>Are</i>',
+      'Beep',
+      'Boop',
+	  '<i>Friendly</i>',
+      'Boop',
+      'Beep',
+      '<i>Robots</i>'
     ]} />
 	      </div>
     </div>

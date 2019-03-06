@@ -11,8 +11,9 @@ export default class Typing extends Component {
     // You can pass other options here, such as typing speed, back speed, etc.
     const options = {
     	strings: strings,
-      typeSpeed: 60,
-      backSpeed: 10
+      typeSpeed: 15,
+      backSpeed: 8,
+      
     };
     // this.el refers to the <span> in the render() method
     this.typed = new Typed(this.el, options);
