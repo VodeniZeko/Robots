@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import logo from '../logo.svg';
+import Typing from './Typing';
+import git from '../git.svg';
 
 
-
-export default class Navbar2 extends Component {
+export default class Navbar extends Component {
 	render() {
 		return (
 
@@ -17,7 +18,12 @@ export default class Navbar2 extends Component {
 	      </div>
     </div>
     <div className="fl w-30 w-third-ns pa2">
-	      <div className=" bg-silver pv4">
+	      <div className=" bg-silver pv4 tc system monospace f3 measure-wide">
+	      <Typing strings={[
+    	'Hi my name is <strong>Edvin.</strong>',
+      'Thank you for visiting my Robo-App',
+      ''
+    ]} />
 	      </div>
     </div>
     <div className="fl w-30 w-third-ns pa2">
