@@ -13,7 +13,7 @@ export default class Typing extends Component {
     	strings: strings,
       typeSpeed: 15,
       backSpeed: 8,
-      
+      color: 'green'
     };
     // this.el refers to the <span> in the render() method
     this.typed = new Typed(this.el, options);

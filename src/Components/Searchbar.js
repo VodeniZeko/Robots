@@ -13,7 +13,7 @@ const Searchbar = ({searchfield, searching}) => {
                     <input  
                     className="inpt" 
                     type="search" 
-                    placeholder="  Search Robots..." 
+                    placeholder=" Search Robots..." 
                     onChange={searching} 
                     /> 
                     </div>    
@@ -31,7 +31,11 @@ const Srch = styled.div `
 
 .dv {
     width: auto;
-}   
+}
+
+input::-webkit-input-placeholder {
+color: #424242 !important;
+}  
 
 .inpt {
     outline: ;

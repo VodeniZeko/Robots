@@ -18,7 +18,7 @@ export default class Navbar extends Component {
 	      </div>
     </div>
     <div className="fl w-30 w-third-ns pa2">
-	      <div className=" bg-silver pv4 tc system monospace f3 measure-wide">
+	      <div className=" bg-silver pv4 tc f2 measure moon-gray">
 	      <Typing strings={[
 	  'Beep',
 	  'Boop',
