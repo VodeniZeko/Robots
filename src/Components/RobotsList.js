@@ -1,7 +1,5 @@
-import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
+import React from 'react';
 import RobotsCard from "./RobotsCard";
-import {robots} from '../robots';
 
 
 
@@ -22,7 +20,6 @@ const RobotsList = ({robots}) => {
 
   	})
   return (
-
        <div className="tc pt-3">
     	{shuffle}
        </div>

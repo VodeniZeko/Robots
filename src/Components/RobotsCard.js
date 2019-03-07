@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 
 
@@ -12,7 +12,7 @@ const RobotsCard = (props) => {
 		<div>
        <h5 >{name}</h5>
 		 <p>{email}</p>
-		 <a href="#" className=" btn btn-primary">Learn more </a>
+		 <a href="#top" className=" btn btn-primary">Learn more </a>
 	</div>
 </Card>
       

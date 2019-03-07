@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import logo from '../logo.svg';
 import Typing from './Typing';
-import git from '../git.svg';
 
 
 export default class Navbar extends Component {
@@ -9,7 +8,7 @@ export default class Navbar extends Component {
 		return (
 
 
-<div className="mw9 center ph3-ns pb-5">
+<div className="mw9 center ph3-ns pb-5 pt-2">
   <div className="cf ph2-ns bg-silver shadow-5">
     
     <div className="fl w-30 w-third-ns pa2">
