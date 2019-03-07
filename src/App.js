@@ -7,6 +7,7 @@ import RobotsList from './Components/RobotsList';
 import {robots} from './robots';
 import Searchbar from './Components/Searchbar';
 import Scroll from './Components/Scroll';
+import Footer from './Components/Footer';
 
 
 
@@ -42,6 +43,7 @@ constructor() {
 		  <Scroll>
 		  <RobotsList robots={filterRobots}/>
 		  </Scroll>
+		  <Footer />
 		 </div>
 		);
 	  }	
