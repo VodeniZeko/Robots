@@ -12,7 +12,6 @@ const RobotsCard = (props) => {
 		<div>
        <h5 >{name}</h5>
 		 <p>{email}</p>
-		 <a href="#top" className=" btn btn-primary">Learn more </a>
 	</div>
 </Card>
       
