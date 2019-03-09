@@ -22,6 +22,9 @@ constructor() {
 	}
 
     changeIt = (event) => {
+    	const filterRobots = this.state.robots.filter(robots => {
+		return robots.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
+	})
      this.setState({searchfield:event.target.value})
     }
 
