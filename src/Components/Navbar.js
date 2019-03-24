@@ -41,11 +41,11 @@ export default class Navbar extends Component {
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"/>
   
   <p className="tx">Lets Connect:</p><span className='SPgo ma2 h2 w2 '><a href="" className="go"> <i className="fab fa-google-plus-g"></i></a></span>
-          <span className='SPg ma2 h2 w2'><a href="" className="git"> <i className="fab fa-github"></i></a></span>
+          <span className='SPg ma2 h2 w2'><a href="https://github.com/VodeniZeko" target="blank" className="git"> <i className="fab fa-github"></i></a></span>
           <span className='SPf ma2 h2 w2'><a href="" className="fb"> <i className="fab fa-facebook-f"></i></a></span>
           <span className='SPi ma2 h2 w2'><a href="" className="inst"> <i className="fab fa-instagram"></i></a></span>
           <span className='SPy ma2 h2 w2'><a href="" className="yt"> <i className="fab fa-youtube"></i></a></span>
-          <span className='SPt ma2 h2 w2'><a href="" className="tw"> <i className="fab fa-twitter"></i></a></span>
+          <span className='SPt ma2 h2 w2'><a href="https://twitter.com/vodenizeko" target="blank" className="tw"> <i className="fab fa-twitter"></i></a></span>
 	      </Navi>
     </div>
   
