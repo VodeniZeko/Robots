@@ -23,16 +23,16 @@ export default class Navbar extends Component {
 	      <Typing strings={[
 	  'Beep',
 	  'Boop',
-      '<i>We</i>',
+      '<strong><i>We</i></strong>',
       'Boop',
   	  'Beep',
-      '<i>Are</i>',
+      '<strong><i>Are</i></strong>',
       'Beep',
       'Boop',
-	  '<i>Friendly</i>',
+	  '<strong><i>Friendly</i></strong>',
       'Boop',
       'Beep',
-      '<i>Robots</i>'
+      '<strong><i>Robots</i></strong>'
     ]} />
 	      </div>
     </div>
