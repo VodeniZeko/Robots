@@ -17,6 +17,4 @@ const Scrol = styled.div `
  overflow-y: scroll;
  border: 1em transparent;
  height: 800px;
- border-radius: 2em;
-
 `;
